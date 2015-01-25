@@ -6,7 +6,7 @@ public class Game
 {
 	public static final String LINE_SEPARATOR = "\n";
 
-	private static final Object Column_SEPARATOR = "|";
+	private static final String Column_SEPARATOR = "|";
 
 	private final String[][] morpionGrid;
 	private final Player firstPlayer;
