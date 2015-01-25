@@ -206,15 +206,11 @@ public class Game
 
 	public String display()
 	{
-		//		.append().append(Morpion.LINE_SEPARATOR).append("O|O|X")
-		//		.append(Morpion.LINE_SEPARATOR).append("X|O|X").append(Morpion.LINE_SEPARATOR).toString();
-
 		final StringBuilder formatedGrid = new StringBuilder();
-
+		
 		final int gridLength = morpionGrid.length;
-
+		
 		for (int i = 0; i < gridLength; i++)
-		{
 
 			for (int j = 0; j < gridLength; j++)
 			{
